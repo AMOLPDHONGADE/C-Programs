@@ -3,14 +3,14 @@
  
 
 // step 3. Function declearation :- "Return Type" Function addition(datatypes);
-void addition();
+void Call();
 void main (){
 	
 Call (); //step 1. Function Call :- Function addition (no parameters and arguments);
 		
 }
 
-void addition() //step 2. Function defination :- "Return typ" Function addition(no parameters and arguments) (){code}
+void Call() //step 2. Function defination :- "Return typ" Function addition(no parameters and arguments) (){code}
 {
 	printf("hi hello dear ");
 }
