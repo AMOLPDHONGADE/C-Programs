@@ -1,1 +1,45 @@
 
+Function and it's syntax
+
+
+step 1 :- Function call 
+
+        Syntax :- Function_Name(parameters if any ?  values or variables without data type);
+
+        Example 1: - addition (a,b);            ----------> variables 
+        Example 2: - addition (5,6);            ----------> values
+
+------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Step 2 : - Funcation Defination 
+
+        Syntax :- "Return type" Function_Name (parameters if any ?  values or variables with data type)
+                   {
+                     Code 1;
+                     Code 1;
+                     Return statement if any   ?
+                   }
+
+        Example 1: - Void addition (int a,int b) ----------> Void Return type means no return. Variables with data type 
+        Example 2: - int addition (int a,int b)
+                        {  ----------> int Return type means return integer value. Variables with data type
+
+------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------ 
+
+Step 2 : - Funcation Declearation 
+
+        Syntax :- "Return type" Function_Name (parameters if any ?  only data type without variables);
+
+        Example 1: - Void addition (int ,int ); ----------> Void Return type means no return. Variables with data type 
+        Example 2: - int addition (int ,int );  ----------> int Return type means return integer value. Variables with data type
+
+------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------ 
+Following types of Functions
+ 
+1) Functions without parameter and without Return type  --------------> ()  & Void
+2) Functions with parameter and without Return type    -------------->  (a,b)  & Void
+3) Functions without parameter and with Return type    --------------> ()  & Int or float
+4) Functions with parameter and with Return type       --------------> (a,b)  & int or float
