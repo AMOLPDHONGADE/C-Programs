@@ -1,16 +1,18 @@
-#include<stdio.h>
-// Function type 1 - Without parameter without return type 
- 
+/* Types of Function :- 1 Function without parameter and without return type */ 
 
-// step 3. Function declearation :- "Return Type" Function addition(datatypes);
-void Call();
-void main (){
+#include<stdio.h> // including standard input output file 
+
+void addition();   //step 3 :- Function Declearation
+void main(){     
 	
-Call (); //step 1. Function Call :- Function addition (no parameters and arguments);
-		
+     addition();   //Step 1 :- Function Calling	
 }
 
-void Call() //step 2. Function defination :- "Return typ" Function addition(no parameters and arguments) (){code}
-{
-	printf("hi hello dear ");
+void addition(){   // Step 2 :- Function Defination
+	 printf("\n\nYour is addition function.\n\n");
+	 int a=6;
+	 int b=8;
+	 int c;
+	 c= a+b;
+	 printf("The value of c is %d",c);
 }
